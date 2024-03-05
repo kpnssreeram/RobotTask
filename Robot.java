@@ -17,7 +17,7 @@ public class Robot {
         int down = dm.get('D');
         int left = dm.get('L');
         int right = dm.get('R');
-        System.out.println("Final Position: (" + (right - left) + ", " + (up - down) + ")");
+        System.out.println("("+(right - left)+", "+(up - down)+")");
     }
 
     public static void main(String[] args) {
