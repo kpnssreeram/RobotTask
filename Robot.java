@@ -38,7 +38,7 @@ class Robot {
     }
 
     public static void main(String[] args) {
-        String p = "UDDLRL";
+        String p = "UDDLRLR";
         finalPosition(p);
     }
 }
