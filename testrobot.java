@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class testrobot {
 
     @Test
-    void testFinalPosition_NoMovement() {
+    void noMovement() {
         String input = "";
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
@@ -19,7 +19,7 @@ class testrobot {
     }
 
     @Test
-    void testFinalPosition_SingleMovement() {
+    void singleMovement() {
         String input = "U";
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
@@ -31,7 +31,7 @@ class testrobot {
     }
 
     @Test
-    void testFinalPosition_MultipleMovements() {
+    void multipleMovements() {
         String input = "UDDLRL";
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
@@ -43,7 +43,7 @@ class testrobot {
     }
 
     @Test
-    void testFinalPosition_EastDirection() {
+    void eastDirection() {
         String input = "RR";
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
@@ -55,7 +55,7 @@ class testrobot {
     }
 
     @Test
-    void testFinalPosition_WestDirection() {
+    void westDirection() {
         String input = "LL";
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
